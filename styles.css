@@ -6,7 +6,7 @@
     --light-green: #98FB98;
     --logo-green: #32de84;
     --mint: #4FFFB0;
-}
+} 
 
 /* Reset */
 * {
@@ -146,4 +146,5 @@ body {
     align-items: center;
     flex-wrap: nowrap;
 }
+
 
