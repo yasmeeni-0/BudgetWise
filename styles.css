@@ -1,4 +1,4 @@
-﻿/* 🌿 FinWise Color Palette */
+/* 🌿 FinWise Color Palette */
 :root {
     --green: #2E8B57;
     --cream: #FAF3E0;
@@ -65,7 +65,7 @@ body {
     justify-content: center;
     align-items: flex-start;
     gap: 4rem;
-    padding: 4rem 2rem;
+    padding: 2rem 2rem;
     background: #e8f9e3; /* cream background */
 }
 
@@ -81,11 +81,12 @@ body {
         border-radius: 2.5rem; /* round the phone image! */
     }
 
+
+
+
 .hero-right {
     max-width: 750px;
-    display: flex;
-    flex-direction: column;
-    gap: 2rem;
+    width: 100%;
 }
 
 .app-description {
@@ -97,13 +98,14 @@ body {
     font-size: 1.5rem;
 }
 
+
 .team-section {
     background: var(--logo-green);
     color: var(--dark-green);
-    padding: 4rem 2rem;
-    margin-top: 5rem;
+    margin-top: 1.5rem;
     border-radius: 2rem;
-    width: 90%;
+    width: 750px; /* match hero-right */
+    padding: 2rem;
     margin-left: auto;
     margin-right: auto;
     text-align: center;
@@ -112,8 +114,8 @@ body {
 
 .mini-card {
     background: white;
-    width: 150px;
-    padding: 1rem;
+    width: 110px; /* smaller size */
+    padding: 0.8rem;
     border-radius: 1rem;
     text-align: center;
     opacity: 0;
@@ -127,21 +129,21 @@ body {
     }
 
     .mini-card img {
-        width: 100%;
-        aspect-ratio: 1 / 1;
-        border-radius: 50%; /* round images */
+        width: 90px; /* smaller picture */
+        height: 90px;
+        border-radius: 50%;
         object-fit: cover;
-        border: 4px solid var(--green);
+        border: 3px solid var(--green);
     }
 
 .team-mini {
     background: var(--green);
-    padding: 2.5rem;
+    padding: 2rem;
     border-radius: 1.5rem;
-    display: flex; /* put them in a row */
-    gap: 2rem; /* spacing between cards */
-    justify-content: center; /* center the whole row */
-    align-items: center; /* vertically aligned */
-    flex-wrap: nowrap; /* keep them in ONE row */
+    display: flex;
+    gap: 1.2rem; /* tighter spacing */
+    justify-content: center;
+    align-items: center;
+    flex-wrap: nowrap;
 }
 
